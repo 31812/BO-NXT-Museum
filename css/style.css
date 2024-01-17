@@ -22,7 +22,7 @@ header, footer{
 }
 
 main{
-    min-height: 100vh;
+    min-height: 84vh;
     width: 90vw;
     margin: 0 auto;
 }
@@ -49,10 +49,6 @@ nav > ul > li{
     width: 100%;
     height: 100%;
     transition: 0.2s transform;
-}
-
-.active{
-    
 }
 
 nav > ul{
@@ -86,8 +82,12 @@ h1 {
     color: white;
 }
 
-h2{
+.h2home{
     font-size: 120%;
+    border-top:3px solid white;
+    margin:0 auto;
+    text-align: center;
+    display: block;
 }
 
 article {
@@ -96,8 +96,6 @@ article {
     padding: 20px;
 }
 
-img{
-}
 p{
     color: white;
 }
@@ -110,13 +108,11 @@ p{
     margin-left: 40px;
 }
 
-footer{
-    border-top:3px solid white;
+.footer{
     height: 450px;
-    
 }
 
-footer > h2{
+.footer > h2{
     margin:0 auto;
     padding: 20px;
     font-size: 40px;
@@ -124,25 +120,9 @@ footer > h2{
     display: block;
 }
 
-footer > p{
-    font-size: 40px;
-    padding: 40px
+.footer > p{
+    font-size: 200%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
-
-footer > p{
-    font-size: 40px;
-    margin-right: 900px;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-
-footer > figcaption{
-    margin: 0 auto;
-     font-size:40px;
-      font-style: italic;
-     font-weight:400;
-     color: white;
-     padding: 40px;
-     margin-left: 600px;
-     margin-right: 600px;
-    }
