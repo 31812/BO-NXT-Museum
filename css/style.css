@@ -37,6 +37,18 @@ main{
     background-color: lightgray;
 }
 
+.light > li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    transform: scale(1.05);
+}
+
+.LiLight:hover{
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    transform: scale(1.05);
+}
+
 .lightfooter{
     background-color: lightgray;
     height: 450px; 
