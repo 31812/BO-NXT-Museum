@@ -33,6 +33,47 @@ main{
     justify-content: left;
 }
 
+.light{
+    background-color: lightgray;
+}
+
+.lightfooter{
+    background-color: lightgray;
+    height: 450px; 
+}
+
+.lightfooter > p{
+    font-size: 200%;
+    display: flex;
+    color: black;
+    justify-content: space-evenly;
+}
+
+.lightfooter > h2{
+    margin:0 auto;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+}
+
+.lightfooter > .h2home{
+    border-top: solid black 3px;
+    color: black;
+}
+
+.light > nav > ul > li > a{
+    color: black;
+}
+
+.lightbody{
+    background-color: lightgray;
+}
+
+.lightText{
+    color: black;
+}
+
 nav{
     width: 60vw;
     height: 100%;
@@ -105,23 +146,23 @@ article {
     display: block;
 }
 
-.box > a > figure{
+.box > figure{
     width: 100%;
     height: 100%;
 }
 
-.box > a > figure > img:hover{
+.box > figure > img:hover{
     transform: none;
 }
 
-.box > a > figure > img{
+.box > figure > img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50px;
 }
 
-.box > a > section{
+.box > section{
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -133,6 +174,47 @@ article {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    background:linear-gradient(transparent,80%,black)
+}
+
+.lightbox{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    padding: 0;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.lightbox > figure{
+    width: 100%;
+    height: 100%;
+}
+
+.lightbox > figure > img:hover{
+    transform: none;
+}
+
+.lightbox > figure > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.lightbox > section{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    padding: 40px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background:linear-gradient(transparent,80%,lightgray)
 }
 
 section{
@@ -150,6 +232,29 @@ p{
     font-family: sans-serif;
     margin-top: 80px;
     margin-left: 40px;
+}
+
+.top{
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    right: 120px;
+    top: 120px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbody > .top{
+    background-color: black;
+    color: white;
 }
 
 .footer{
