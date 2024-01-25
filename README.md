@@ -1,2 +1,4 @@
 # BO-NXT-Museum
-BO opdracht NXT museum
+Namen: Elias Reifenstuel, Isaiah Ajilo
+Dit is onze website die we hebben gemaakt voor het NXT museum
+Link: https://31812.hosts1.ma-cloud.nl/BO/BO-NXT-Museum/index.html 

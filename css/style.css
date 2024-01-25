@@ -283,7 +283,31 @@ p{
 
 .footer > p{
     font-size: 200%;
-    display: flex;
+    display: block;
     color: white;
-    justify-content: space-evenly;
+}
+
+.footer > a{
+    
+
+}
+
+.socialslight{
+    font-size: 200%;
+    padding: 0;
+}
+
+.socialslight > a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials{
+    font-size: 200%;
+    padding: 0;
+}
+
+.socials > a{
+    text-decoration: none;
+    color: white;
 }
