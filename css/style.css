@@ -247,6 +247,11 @@ p{
     color: black;
 }
 
+.history > article > p{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
 .home > article > p{
     font-size: 30px;
     margin-right: 600px;
