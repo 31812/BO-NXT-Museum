@@ -58,15 +58,12 @@ main{
     font-size: 200%;
     display: flex;
     color: black;
-    justify-content: space-evenly;
 }
 
 .lightfooter > h2{
     margin:0 auto;
     padding: 20px;
     font-size: 40px;
-    text-align: center;
-    display: block;
 }
 
 .lightfooter > .h2home{
@@ -302,8 +299,7 @@ p{
 }
 
 .footer > a{
-    
-
+    text-decoration: none;
 }
 
 .socialslight{
@@ -313,6 +309,10 @@ p{
 
 .socialslight > a{
     text-decoration: none;
+    color: black;
+}
+
+.socialslight > p{
     color: black;
 }
 
