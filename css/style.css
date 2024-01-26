@@ -238,6 +238,15 @@ p{
     color: white;
 }
 
+.Reviews > article > p{
+    padding: 40px;
+}
+
+.Reviewslight > article > p{
+    padding: 40px;
+    color: black;
+}
+
 .home > article > p{
     font-size: 30px;
     margin-right: 600px;
@@ -311,3 +320,4 @@ p{
     text-decoration: none;
     color: white;
 }
+
